@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hasan Sofian',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Learn, Follow, Support',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,19 +66,38 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'HS',
+        title: 'Hasan Sofian',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            label: 'Apps',
+            to: '/page/apps',
+            position: 'right',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            label: 'Courses',
+            to: '/page/courses',
+            position: 'right',
+          },
+          {
+            label: 'Donate',
+            to: '/page/donate',
+            position: 'right',
+          },
+          {
+            label: 'About me',
+            to: '/page/about',
+            position: 'right',
+          },
+          {
+            label: 'Contact me',
+            to: '/page/contact',
+            position: 'right',
+          },
+          
           {
             href: 'https://github.com/HasanSufian/',
             label: 'GitHub',
