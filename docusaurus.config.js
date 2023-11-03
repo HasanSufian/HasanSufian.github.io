@@ -78,9 +78,14 @@ const config = {
             position: 'right',
           },
           {
+            label: 'Projects',
+            to: '/page/projects',
+            position: 'right',
+          },
+          {
             label: 'Courses',
             to: '/page/courses',
-            position: 'right',
+            position: 'left',
           },
           {
             label: 'Donate',
