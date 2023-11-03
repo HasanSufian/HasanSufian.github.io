@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.gradientText {
+  background: linear-gradient(to right, #1d2ae6, #d101e4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
