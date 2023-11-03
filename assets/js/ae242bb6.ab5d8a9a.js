@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[721],{7082:(e,t,n)=>{n.r(t),n.d(t,{default:()=>c});var r=n(7961),s=n(7294);function c(){return s.createElement(r.Z,{title:"Projects \ud83d\ude80",description:"My Projects"},s.createElement("main",null))}}}]);
