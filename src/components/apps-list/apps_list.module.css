@@ -1,0 +1,21 @@
+@import '/src/css/variables.css';
+
+.list {
+    display: grid;
+    /* Adjust the number of columns as needed */
+    grid-template-columns: repeat(2, 1fr);
+    /* Adjust the gap between items */
+    grid-gap: 50px;
+}
+
+
+/* mobile view */
+@media screen and (max-width: 770px) {
+    .list {
+        display: block;
+        /* Adjust the number of columns as needed */
+        /* grid-template-columns: repeat(1, 1fr); */
+        /* Adjust the gap between items */
+        /* grid-gap: 20px; */
+    }
+}

@@ -1,0 +1,56 @@
+@import '/src/css/variables.css';
+
+
+.app_container {
+    border: 1px solid var(--app-item-os-label-color);
+    border-radius: 10px;
+    background-color: var(--app-item-bg-color);
+    display: flex;
+    
+}
+
+.app_container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(15, 15, 15, 0.2), 0 0 5px 0 rgba(255, 255, 255, 0.7);
+}
+
+.content_container {
+    padding: 10px;
+    flex: 2;
+}
+
+
+.app_img_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.app_img_container {
+    flex: 1;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.osRow {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.osItem {
+    font-size:12px;
+    border: 1px solid #9b9b9b;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    background-color: var(--app-item-os-label-color);
+}
+
+
+@media screen and (max-width: 770px) {
+    .app_container {
+        margin-top: 10px;
+    }
+}
