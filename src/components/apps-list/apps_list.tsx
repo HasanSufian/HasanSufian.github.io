@@ -6,9 +6,9 @@ const apps: AppsItemType[] = [
     {
         title: 'Mahfaza',
         desc: 'Manage your money',
-        imgUrl: 'C:/Users/hassa/Documents/Github/Flutter projects/Apps/0 - Icons/Mahfaza-23-9-2023/android/res/mipmap-xxxhdpi',
+        imgUrl: '/static/img/apps-icons/icon-1.png',
         os: ['android', 'ios', 'free'],
-        appPageUrl: '#',
+        appPageUrl: '/app/app-page',
     },
     {
         title: 'Daleel',
@@ -48,6 +48,7 @@ const apps: AppsItemType[] = [
 ];
 
 export default function AppsList() {
+    
     return (
         <div className={styles.list}>
             {apps.map(app => {

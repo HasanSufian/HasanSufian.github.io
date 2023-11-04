@@ -1,21 +1,28 @@
-@import '/src/css/variables.css';
+@import '/src/css/custom.css';
 
 
 .app_container {
-    border: 1px solid var(--app-item-os-label-color);
+    border: 1px solid var(--border-color);
     border-radius: 10px;
-    background-color: var(--app-item-bg-color);
+    background-color: var(--item-container-color);
+    text-decoration: none;
+    color: inherit;
     display: flex;
     
 }
 
+.content_container h4 {
+    color:var(--text-color-2);
+}
+
 .app_container:hover {
-    cursor: pointer;
-    box-shadow: 0 0 5px 0 rgba(15, 15, 15, 0.2), 0 0 5px 0 rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--box-shadow);
 }
 
 .content_container {
-    padding: 10px;
+    padding: 20px;
     flex: 2;
 }
 
@@ -40,17 +47,19 @@
 
 .osItem {
     font-size:12px;
-    border: 1px solid #9b9b9b;
+    background-color: var(--flags-bg-color);
+    border: 1px solid var(--border-color);
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
-    background-color: var(--app-item-os-label-color);
 }
 
 
-@media screen and (max-width: 770px) {
-    .app_container {
-        margin-top: 10px;
+@media screen and (max-width: 450px) {
+    .app_container, .app_container:hover {
+        border:none;
+        border-radius: 0px;
+        margin-bottom:10px;
     }
 }

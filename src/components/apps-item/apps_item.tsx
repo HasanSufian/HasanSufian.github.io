@@ -12,12 +12,12 @@ export type AppsItemType = {
 
 export default function AppsItem(AppsItem: AppsItemType) {
     return (
-        <div className={styles.app_container}>
+        <Link className={styles.app_container} to={AppsItem.appPageUrl}>
             <div className={styles.app_img_container}>
                 <img src={AppsItem.imgUrl} alt={`${AppsItem.title} icon`} />
             </div>
             <div className={styles.content_container}>
-                <h1>{AppsItem.title}</h1>
+                <h2>{AppsItem.title}</h2>
                 <h4 className={styles.app_desc}>{AppsItem.desc}</h4>
                 <div className={styles.osRow}>
                     {AppsItem.os.map(os => {
@@ -27,6 +27,6 @@ export default function AppsItem(AppsItem: AppsItemType) {
                     })}
                 </div>
             </div>
-        </div>
+        </Link>
     );
 }
