@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[665],{4078:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});var a=n(7961),l=n(7294);function u(){return l.createElement(a.Z,{title:"Donate \u2764"},l.createElement("main",null))}}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[642],{8706:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var s=n(7961),u=n(7294);function l(){return u.createElement(s.Z,{title:"Courses"},u.createElement("main",null))}}}]);
