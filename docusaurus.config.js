@@ -93,7 +93,7 @@ const config = {
             position: 'right',
           },
           {
-            label: 'About me',
+            label: 'About',
             to: '/page/about',
             position: 'right',
           },

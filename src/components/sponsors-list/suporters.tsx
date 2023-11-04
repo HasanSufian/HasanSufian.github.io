@@ -10,7 +10,7 @@ type SponsersType = {
     sponsors?: Sponsor[];
 }
 
-export default function Sponsors({ title, money, sponsors, sponsorshipUrl }: SponsersType) {
+export default function Supporter({ title, money, sponsors, sponsorshipUrl }: SponsersType) {
     return (
         <div>
             <h2>
@@ -23,9 +23,8 @@ export default function Sponsors({ title, money, sponsors, sponsorshipUrl }: Spo
             <ul>
                 {sponsors.map(sponsor => {
                     return (
-                        <li className={styles.sponsor_container}>
+                        <li>
                             <a href={sponsor.link}><h4>{sponsor.name}</h4></a>
-                            <img src={sponsor.logoUrl} alt={`${sponsor.name} logo`} className={styles.logo} />
                         </li>
                     )
                 })}
