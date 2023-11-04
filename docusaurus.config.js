@@ -69,17 +69,12 @@ const config = {
         title: 'Hasan Sofian',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             label: 'Apps',
             to: '/page/apps',
-            position: 'right',
-          },
-          {
-            label: 'Projects',
-            to: '/page/projects',
             position: 'right',
           },
           {
@@ -93,19 +88,13 @@ const config = {
             position: 'right',
           },
           {
+            label: 'Supporters',
+            to: '/page/supporters',
+            position: 'right',
+          },
+          {
             label: 'About me',
             to: '/page/about',
-            position: 'right',
-          },
-          {
-            label: 'Contact me',
-            to: '/page/contact',
-            position: 'right',
-          },
-          
-          {
-            href: 'https://github.com/HasanSufian/',
-            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -133,11 +122,15 @@ const config = {
             ],
           },
           {
-            title: 'Links',
+            title: 'Usefull Links',
             items: [
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'My Projects',
+                to: '/page/projects',
               },
               {
                 label: 'GitHub',

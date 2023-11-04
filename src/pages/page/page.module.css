@@ -1,0 +1,59 @@
+@import '/src/css/custom.css';
+
+
+/* commmon css for all pages */
+
+.link{
+    color:inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--ifm-color-primary);
+    text-decoration-thickness: 2px;
+}
+
+/* apps page */
+main {
+    padding: 30px;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.page_title strong {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    main {
+        padding: 0px;
+    }
+
+    .page_title {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+
+
+
+/*  donate page */
+
+.donate_page_body{
+    padding: 20px;
+}
+
+@media screen and (min-width: 912px){
+    .donate_page_body{
+        width: 800px;
+        align-self: center;
+    }
+}

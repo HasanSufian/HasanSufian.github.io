@@ -1,0 +1,22 @@
+@import '/src/css/custom.css';
+
+.sponsor_container{
+    background-color: var(--item-container-color);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.logo {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    align-content: center;
+}
+
+.sponsorship_url{
+    text-decoration: none;
+    margin-left: 10px;
+}

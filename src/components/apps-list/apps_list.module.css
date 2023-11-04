@@ -1,4 +1,4 @@
-@import '/src/css/variables.css';
+@import '/src/css/custom.css';
 
 .list {
     display: grid;
@@ -10,7 +10,7 @@
 
 
 /* mobile view */
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 450px) {
     .list {
         display: block;
         /* Adjust the number of columns as needed */
