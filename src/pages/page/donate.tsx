@@ -5,7 +5,7 @@ import styles from './page.module.css';
 export default function Donate() {
     return (
         <Layout title='Donate ❤'>
-            <main className={styles.donate_page_body}>
+            <main className={styles.page_body}>
                 <h1 className={styles.page_title}>Donate ❤</h1>
                 <p>
                     I’m a full-time open-sourcerer and my work is funded by the community.
@@ -16,14 +16,14 @@ export default function Donate() {
                 </p>
                 <h2>Monthly donations</h2>
                 <ul>
-                    <li><a href='#' className={styles.link}>Github Sponsers</a></li>
-                    <li><a href='#' className={styles.link}>Buy Me a Coffee</a></li>
+                    <li><a href='https://github.com/sponsors/HasanSufian' className={styles.link}>Github Sponsers</a></li>
+                    <li><a href='https://www.buymeacoffee.com/HassanSofyan' className={styles.link}>Buy Me a Coffee</a></li>
                 </ul>
 
                 <h2>One-time donations</h2>
                 <ul>
-                    <li><a href='#' className={styles.link}>Github Sponsers</a></li>
-                    <li><a href='#' className={styles.link}>Buy Me a Coffee</a></li>
+                    <li><a href='https://github.com/sponsors/HasanSufian' className={styles.link}>Github Sponsers</a></li>
+                    <li><a href='https://www.buymeacoffee.com/HassanSofyan' className={styles.link}>Buy Me a Coffee</a></li>
                 </ul>
 
                 <h2>Buy my apps</h2>

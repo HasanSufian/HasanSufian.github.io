@@ -43,17 +43,21 @@ const sponsors: Sponsor[] = [
 export default function Supporters() {
     return (
         <Layout title='🦄 Supporters' description='Thank you for support 🙌'>
-            <main className={styles.donate_page_body}>
+            <main className={styles.page_body}>
                 <h1 className={styles.page_title}>Thanks 🙌</h1>
+
                 <p>
-                    I’m truly grateful to all the wonderful humans and companies supporting my open source work on <a href='https://opencollective.com/hasan-sofian'>GitHub Sponsors</a> and <a href='https://opencollective.com/hasan-sofian'>Open Collective</a>.
+                    I’m truly grateful to all the wonderful humans and companies supporting my open source work on <a href='https://github.com/sponsors/HasanSufian'>GitHub Sponsors</a> and <a href='https://opencollective.com/hasansofian'>Open Collective</a>.
                 </p>
-                <Sponsors title='🦄 Sponsor' money='$1000/month' sponsors={sponsors} sponsorshipUrl={`#`}/>
-                <Sponsors title='Silver Sponsor'money='$100/month' sponsors={sponsors} sponsorshipUrl='#'/>
-                <Supporter title='Top Supporter' money='$50/month' sponsors={sponsors} sponsorshipUrl='#'/>
-                <Supporter title='Supporter' money='$10/month' sponsors={sponsors} sponsorshipUrl='#'/>
+                <section>
+                    <iframe src="https://github.com/sponsors/HasanSufian/card" title="Sponsor HasanSufian" className={styles.gh_sponsor_card}></iframe>
+                </section>
+                <Sponsors title='🦄 Sponsor' money='$1000/month' sponsors={sponsors} sponsorshipUrl={`#`} />
+                <Sponsors title='Silver Sponsor' money='$100/month' sponsors={sponsors} sponsorshipUrl='#' />
+                <Supporter title='Top Supporter' money='$50/month' sponsors={sponsors} sponsorshipUrl='#' />
+                <Supporter title='Supporter' money='$10/month' sponsors={sponsors} sponsorshipUrl='#' />
 
             </main>
-        </Layout>
+        </Layout >
     );
 }

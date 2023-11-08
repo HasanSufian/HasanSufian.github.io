@@ -3,12 +3,23 @@
 
 /* commmon css for all pages */
 
-.link{
-    color:inherit;
+.link {
+    color: inherit;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-color: var(--ifm-color-primary);
     text-decoration-thickness: 2px;
+}
+
+.page_body {
+    padding: 20px;
+}
+
+@media screen and (min-width: 912px) {
+    .page_body {
+        width: 800px;
+        align-self: center;
+    }
 }
 
 /* apps page */
@@ -31,6 +42,49 @@ main {
 
 
 
+
+
+
+
+
+/*  learn page */
+
+.sectionList {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    white-space: nowrap;
+}
+
+.card {
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.gh_sponsor_card{
+    border:0px;
+    border-radius:10px;
+    width: 100%;
+    height: 100px;
+    background-color: inherit;
+}
+
 @media screen and (max-width: 450px) {
     main {
         padding: 0px;
@@ -40,20 +94,8 @@ main {
         text-align: center;
         font-size: 30px;
     }
-}
-
-
-
-
-/*  donate page */
-
-.donate_page_body{
-    padding: 20px;
-}
-
-@media screen and (min-width: 912px){
-    .donate_page_body{
-        width: 800px;
-        align-self: center;
+    .gh_sponsor_card{
+        width: 100%;
+        height:200px;
     }
 }

@@ -78,8 +78,8 @@ const config = {
             position: 'right',
           },
           {
-            label: 'Courses',
-            to: '/page/courses',
+            label: 'Learn 💡',
+            to: '/page/learn',
             position: 'left',
           },
           {
@@ -109,18 +109,22 @@ const config = {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/hasansofian',
               },
-            ],
-          },
-          {
-            title: 'Support me',
-            items: [
               {
-                label: 'Buy Me a Coffee',
-                href: 'https://www.buymeacoffee.com/HassanSofyan',
+                label: 'GitHub',
+                href: 'https://github.com/HasanSufian/',
               },
-
             ],
           },
+          // {
+          //   title: 'Support me',
+          //   items: [
+          //     {
+          //       label: 'Buy Me a Coffee',
+          //       href: 'https://www.buymeacoffee.com/HassanSofyan',
+          //     },
+
+          //   ],
+          // },
           {
             title: 'Usefull Links',
             items: [
@@ -131,10 +135,6 @@ const config = {
               {
                 label: 'My Projects',
                 to: '/page/projects',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/HasanSufian/',
               },
             ],
           },
