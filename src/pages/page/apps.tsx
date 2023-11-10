@@ -7,7 +7,7 @@ import styles from './page.module.css';
 export default function Apps(){
     return (
         <Layout title='Apps'>
-            <main className={styles.page_body}>
+            <main>
                 <h1 className={styles.page_title}>Quality crafted <strong>apps</strong></h1>
                 <AppsList/>
             </main>
