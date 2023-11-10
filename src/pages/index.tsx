@@ -13,11 +13,11 @@ function HomepageHeader() {
       <div className="container">
         <h2 className={clsx("hero__subtitle", styles.gradientText)}>{siteConfig.tagline}</h2>
         <div className={styles.buttons}>
-          <Link
+          {/* <Link
             className="button button--secondary button--lg"
             to="/page/courses">
             Learn
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>

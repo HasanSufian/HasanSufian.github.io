@@ -103,7 +103,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Follow me on',
+            title: 'Follow me',
             items: [
               {
                 label: 'LinkedIn',

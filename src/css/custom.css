@@ -25,6 +25,7 @@
   --flags-bg-color: #ffffff;
   --gradient-text: linear-gradient(to right, #0000c0, #b000c0);
   --box-shadow: 0px 6px 10px 0px #9e9e9e59;
+  --page-body-width: 800px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
