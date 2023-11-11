@@ -1,0 +1,56 @@
+main {
+    padding: 0px;
+    align-items: center;
+}
+.app_page_header {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    line-height: inherit;
+    letter-spacing: -.025em;
+    -webkit-font-smoothing: antialiased;
+    /* margin-bottom: 10rem; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-weight: inherit;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.first_nav{
+    margin-top: .5rem;
+}
+
+.second_nav {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    margin-top: 2rem;
+    display: flex;
+    max-width: 28rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.second_nav_item {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: inherit;
+}
